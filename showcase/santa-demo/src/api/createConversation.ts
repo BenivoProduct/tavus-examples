@@ -7,11 +7,11 @@ export const createConversation = async (
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": token ?? "",
+      "x-api-key": "cea1fcd9e1e24395be1b455da1096f1d",
     },
     body: JSON.stringify({
       // Santa Demo Persona
-      persona_id: "p3bb4745d4f9",
+      persona_id: "p8ad8ddbae28",
     }),
   });
 
